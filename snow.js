@@ -1,6 +1,6 @@
 // Wrap the initialization in a window load event listener
 window.addEventListener('load', () => {
-  const canvas = document.getElementById('snow_style.css');
+  const canvas = document.getElementById('snowCanvas');
   const ctx = canvas.getContext('2d');
 
   // Set the canvas size to match the browser window exactly

@@ -1,4 +1,4 @@
-const canvas = document.getElementById('snowCanvas');
+const canvas = document.getElementById('snow_style.css');
 const ctx = canvas.getContext('2d');
 
 // Set the canvas size to match the browser window exactly

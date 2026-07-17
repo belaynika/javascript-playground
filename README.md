@@ -13,8 +13,6 @@ Right now, the playground features:
 * **Confetti Clicker:** Script captures mouse coordinates on click and spawns animated, glowing confetti particles.
 * **Text Animator:** A modular typewriter effect script that dynamically injects fading letters into the page layout.
 
-* **
-
 ---
 
 ## 🌐 Live Demo

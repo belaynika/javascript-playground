@@ -12,7 +12,7 @@ Right now, the playground features:
 * **Neon Rainbow Clock:** A dynamic digital clock that reads the user's local device timezone and changes color smoothly every second.
 * **Confetti Clicker:** Script captures mouse coordinates on click and spawns animated, glowing confetti particles.
 * **Text Animator:** A modular typewriter effect script that dynamically injects fading letters into the page layout.
-
+* **Animated Falling Snow:** Snow falls down the page. 
 ---
 
 ## 🌐 Live Demo

@@ -1,0 +1,60 @@
+/* 1. The general page layout and background */
+body {
+  background-color: #121214;   /* A soft, deep dark gray (not pure blinding black) */
+  color: #e2e8f0;              /* An off-white color that is easy on the eyes */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;      /* Stack items from top to bottom */
+  align-items: center;         /* Center everything horizontally */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* 2. Styling the main heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Gives it a subtle 3D lift */
+}
+
+/* 3. Turn your widgets into clean, glowing "cards" */
+.box {
+  background-color: #1a1a1e;   /* Slightly lighter than the background so it stands out */
+  border: 1px solid #2d2d34;   /* A subtle border line */
+  border-radius: 12px;         /* Rounded corners make everything look modern */
+  padding: 30px;
+  text-align: center;          /* Centers the text inside the box */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Smooth shadow underneath */
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;   /* Makes it look like a cool widget label */
+  letter-spacing: 1px;
+  color: #8a8a93;              /* Muted gray text */
+  margin-top: 0;
+}
+
+/* 4. Make your clock look huge and premium */
+#clock {
+  font-size: 3.5rem;           /* Big, bold numbers */
+  font-weight: bold;
+  font-family: monospace;      /* Prevents numbers from wobbling when changing */
+  margin: 10px 0;
+}
+
+/* 5. The clicker confetti styling */
+.confetti {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+  border-radius: 3px;          /* Slightly round the confetti squares */
+  box-shadow: 0 0 8px currentColor; /* Makes the confetti pieces glow! */
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
